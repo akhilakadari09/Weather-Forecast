@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="https://kit.fontawesome.com/e16c4c331d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="heading">
+  
+          <h1>WEATHER FORECAST</h1>
+  
+        </div>
+  
+        <ul class="nav-links">
+  
+          <li><a href="#" onclick='getWeatherByLocation("bhopal");return false;'>Bhopal</a></li>
+  
+          <li><a href="#" onclick='getWeatherByLocation("hyderabad");return false;'>Hyderabad</a></li>
+  
+          <li><a href="#" onclick='getWeatherByLocation("bangalore");return false;'>Benguluru</a></li>
+  
+          <li><a href="#" onclick='getWeatherByLocation("noida");return false;'>Noida</a></li>
+  
+        </ul> 
+  
+      </nav>
+  
+  
+    <!-- <div class="heading">
+        <h1>WEATHER FORECAST</h1>
+    </div> -->
+    <div class="main-container">
+        <div class="weather-container">
+            <form id="form"> <input type="text" id="search" placeholder="Search By Location" autocomplete="off"> </form>
+           <input type="submit" name="submit" value="Search" id="submit-btn">
+            <main id="main"> </main> 
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+}
+
+
+
+.main-container{
+    
+    font-family: "Poppins", sans-serif;
+    background-image: url("bg1.jpg");
+ 
+
+    background-color: #E4FFFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    
+    
+  
+}
+
+input{
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    min-width: 300px;
+    font-size: 1rem;
+    margin: 1rem;
+}
+input:focus{
+    outline: none;
+}
+
+
+#submit-btn{
+  cursor: pointer;
+}
+
+#submit-btn:hover{
+  background-color: teal;
+
+}
+
+nav {
+
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    height: 10vh;
+    max-width:100%;
+  
+    background-color: teal;
+    
+  
+    font-family: "Montserrat", sans-serif;
+  
+  }
+  
+
+  .heading {
+
+    color: white;
+  
+    text-transform: uppercase;
+  
+    letter-spacing: 0.1em;
+  
+    font-size: 120%;
+  
+  }
+  
+  .nav-links {
+
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+  
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+  }
+  
+  .nav-links a:hover {
+  
+    background-color: #263A29
+  
+  }
+  
+  
+    
+
+
+
+.weather-container{
+    
+    background-color: rgba(76, 175, 80, 0.3);
+    border-radius: 25px;
+    padding:10px;
+    text-align: center;
+   
+    
+}
+
+
+.weather{
+    text-align: center;
+    font-size: 2rem ;
+}
+
+.weather h2{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.weather-img{
+    display: inline-block;
+}
+
+
+
+@media only screen and (max-width:1000px){
+   .nav-links{
+    display:none;
+   }
+}
+
+   
+  
+
+
